@@ -30,6 +30,9 @@ header{
   font-size: 14px;
   font-weight: 600;
  }
+ .tickets {
+  cursor: pointer;
+ }
  .tickets:hover{
   background-color: rgb(42, 104, 161);
   transition: 0.5s;
@@ -89,18 +92,19 @@ header{
   font-size: 24px;
   line-height: 24px;
 }
-section {
+section  {
   width: 1140px;
   margin: auto;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 .design {
-  color: rgb(0, 0, 0);
+  color: #191919;
   font-family: "Noto Serif", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 48px;
   line-height: 67px;
+  letter-spacing: 1px;
 }
 .des {
   color: rgb(0, 0, 0);
@@ -114,5 +118,47 @@ section {
   font-family: "Noto Serif", serif;
   font-weight: 400;
   font-size: 20px;
+  line-height: 24px;
+}
+.ar {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.like {
+  color: #3a3a3a;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+}
+.time {
+  color: #116dff;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.speaker {
+  color: #191919;
+  font-family: "Noto Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.sect {
+  background-color: #edf8fa;
+  margin: auto;
+  width: auto;
+  padding-right: 220px;
+  padding-left: 220px;
+}
+.name {
+  color: #191919;
+  font-family: "Noto Serif", serif;
+  font-size: 24px;
+  font-weight: 400;
   line-height: 24px;
 }
